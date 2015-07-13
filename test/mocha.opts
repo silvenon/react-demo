@@ -1,0 +1,2 @@
+--compilers jsx:babel-core/register
+--recursive

@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "babel-core": "^5.6.18",
+    "jsdom": "^3.1.2",
     "jsdomify": "^0.3.0",
     "mocha": "^2.2.5"
   }

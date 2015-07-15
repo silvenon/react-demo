@@ -23,7 +23,6 @@ Error: Invariant Violation: addComponentAsRefTo(...): Only a ReactOwner can have
 To reproduce 1st issue, remove this part from `helpers/dom.js`:
 
 ```js
-// remove react from the require cache
 for (var key in require.cache) {
   if (key.match(/\/node_modules\/react\//)) {
     delete require.cache[key];
